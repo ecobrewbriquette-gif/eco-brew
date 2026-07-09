@@ -1,0 +1,597 @@
+{
+  "site": {
+    "title": "EcoBrew Briquette",
+    "tagline": "The Future of Sustainable Bioenergy",
+    "description": "Solusi energi terbarukan berbasis biomassa untuk HORECA, industri, dan pasar ekspor."
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "products": "Produk",
+    "technology": "Teknologi",
+    "sustainability": "Keberlanjutan",
+    "industries": "Industri",
+    "gallery": "Galeri",
+    "blog": "Blog & Berita",
+    "investors": "Investor",
+    "contact": "Kontak",
+    "language": "Bahasa",
+    "theme": "Tema"
+  },
+  "home": {
+    "hero": {
+      "title": "Masa Depan Bioenergi yang Berkelanjutan",
+      "subtitle": "Briket Premium dari Ampas Kopi & Biomassa untuk Industri Global",
+      "cta": "Jelajahi Produk",
+      "ctaSecondary": "Ajukan RFQ"
+    },
+    "valueProposition": {
+      "title": "Mengapa EcoBrew?",
+      "items": [
+        {
+          "icon": "recycle",
+          "title": "Circular Economy",
+          "description": "Mengubah limbah ampas kopi menjadi sumber energi bernilai tinggi."
+        },
+        {
+          "icon": "leaf",
+          "title": "Ramah Lingkungan",
+          "description": "Mengurangi emisi karbon hingga 60% dibanding bahan bakar fosil."
+        },
+        {
+          "icon": "award",
+          "title": "Kualitas Premium",
+          "description": "Standar internasional dengan kalori tinggi, asap rendah, dan daya tahan lama."
+        },
+        {
+          "icon": "globe",
+          "title": "Siap Ekspor",
+          "description": "Memenuhi standar pasar Eropa, Asia, dan Timur Tengah."
+        }
+      ]
+    },
+    "keunggulan": {
+      "title": "Keunggulan EcoBrew Briquette",
+      "items": [
+        {
+          "title": "Kalori Tinggi",
+          "description": "Nilai kalori >6.500 kkal/kg, lebih tinggi dari briket konvensional."
+        },
+        {
+          "title": "Low Emission",
+          "description": "Emisi CO2 lebih rendah 60% dan asap minimal."
+        },
+        {
+          "title": "Durable",
+          "description": "Waktu bakar hingga 4-6 jam dengan panas yang konsisten."
+        },
+        {
+          "title": "Eco-Friendly",
+          "description": "100% bahan baku alami dari limbah biomassa."
+        },
+        {
+          "title": "Premium Quality",
+          "description": "Proses produksi modern dengan quality control ketat."
+        },
+        {
+          "title": "Customizable",
+          "description": "Tersedia dalam berbagai bentuk, ukuran, dan kemasan sesuai kebutuhan."
+        }
+      ]
+    },
+    "produkUnggulan": {
+      "title": "Produk Unggulan",
+      "subtitle": "Solusi energi terbaik untuk berbagai kebutuhan industri dan komersial",
+      "cta": "Lihat Semua Produk",
+      "items": [
+        {
+          "title": "Premium Briquette",
+          "description": "Briket premium dengan kualitas tertinggi untuk berbagai aplikasi.",
+          "slug": "premium"
+        },
+        {
+          "title": "HORECA Briquette",
+          "description": "Khusus untuk kebutuhan hotel, restoran, dan kafe.",
+          "slug": "horeca"
+        },
+        {
+          "title": "Industrial Briquette",
+          "description": "Solusi energi untuk industri manufaktur dan produksi.",
+          "slug": "industrial"
+        },
+        {
+          "title": "BBQ Briquette",
+          "description": "Briket khusus untuk BBQ dengan aroma natural dan pembakaran bersih.",
+          "slug": "bbq"
+        }
+      ]
+    },
+    "sustainability": {
+      "title": "Dampak Keberlanjutan",
+      "subtitle": "Komitmen kami terhadap Circular Economy, ESG, dan SDGs",
+      "stats": [
+        { "value": "60%", "label": "Pengurangan Emisi CO2" },
+        { "value": "100%", "label": "Bahan Baku Alami" },
+        { "value": "500+", "label": "Ton Limbah Terolah per Tahun" },
+        { "value": "4+", "label": "SDGs Tercapai" }
+      ]
+    },
+    "cta": {
+      "title": "Siap Beralih ke Energi Berkelanjutan?",
+      "subtitle": "Hubungi tim kami untuk mendapatkan penawaran terbaik",
+      "button": "Hubungi Kami"
+    }
+  },
+  "about": {
+    "title": "Tentang EcoBrew Briquette",
+    "subtitle": "Inovasi energi berkelanjutan dari limbah biomassa untuk masa depan yang lebih hijau",
+    "profile": {
+      "title": "Profil Perusahaan",
+      "description": "EcoBrew Briquette adalah perusahaan bioenergi yang berfokus pada produksi briket berkualitas tinggi dari ampas kopi dan biomassa lainnya. Berdiri dengan visi untuk menjadi pemimpin dalam transisi energi terbarukan, kami menggabungkan teknologi inovatif dengan komitmen kuat terhadap keberlanjutan lingkungan. Kami melayani berbagai sektor mulai dari HORECA hingga industri berat, serta pasar ekspor di Eropa, Asia, dan Timur Tengah."
+    },
+    "visiMisi": {
+      "title": "Visi & Misi",
+      "visi": {
+        "title": "Visi",
+        "content": "Menjadi perusahaan bioenergi global terdepan yang mengubah limbah biomassa menjadi solusi energi berkelanjutan untuk masa depan yang lebih hijau."
+      },
+      "misi": [
+        "Menghasilkan briket biomassa berkualitas premium dengan standar internasional.",
+        "Mengurangi dampak lingkungan melalui pengelolaan limbah yang bertanggung jawab.",
+        "Memberdayakan komunitas lokal melalui rantai pasok yang inklusif dan berkelanjutan.",
+        "Berkontribusi aktif dalam pencapaian Sustainable Development Goals (SDGs).",
+        "Mengedukasi pasar tentang manfaat energi terbarukan biomassa."
+      ]
+    },
+    "cerita": {
+      "title": "Cerita EcoBrew",
+      "content": "EcoBrew lahir dari keprihatinan terhadap limbah ampas kopi yang menumpuk di seluruh Indonesia. Sebagai negara penghasil kopi terbesar keempat di dunia, Indonesia menghasilkan jutaan ton ampas kopi setiap tahunnya yang berakhir di tempat pembuangan akhir. Berbekal riset dan inovasi, tim EcoBrew menemukan cara untuk mengubah 'limbah' ini menjadi 'emas hitam' - briket biomassa bernilai tinggi. Perjalanan kami dimulai di sebuah laboratorium kecil, dan kini telah berkembang menjadi perusahaan yang melayani pelanggan di berbagai negara."
+    },
+    "tim": {
+      "title": "Tim Kami",
+      "members": [
+        { "name": "Ahmad Rizki", "role": "CEO & Founder", "bio": "Pakar energi terbarukan dengan pengalaman 15 tahun di industri bioenergi." },
+        { "name": "Sarah Wijaya", "role": "COO", "bio": "Ahli operasional dan rantai pasok dengan fokus pada efisiensi dan keberlanjutan." },
+        { "name": "Dr. Budi Santoso", "role": "CTO", "bio": "Doktor di bidang teknologi biomassa dengan puluhan publikasi ilmiah." },
+        { "name": "Maya Putri", "role": "CMO", "bio": "Strategis pemasaran B2B dengan jaringan global di sektor energi terbarukan." }
+      ]
+    },
+    "nilai": {
+      "title": "Nilai Perusahaan",
+      "items": [
+        { "title": "Inovasi", "description": "Terus mendorong batas teknologi bioenergi." },
+        { "title": "Integritas", "description": "Transparan dan bertanggung jawab dalam setiap aspek bisnis." },
+        { "title": "Keberlanjutan", "description": "Komitmen terhadap lingkungan dan masyarakat." },
+        { "title": "Kualitas", "description": "Standar tertinggi dalam setiap produk dan layanan." },
+        { "title": "Kolaborasi", "description": "Bekerja sama dengan mitra untuk dampak yang lebih besar." }
+      ]
+    }
+  },
+  "products": {
+    "title": "Produk",
+    "subtitle": "Solusi briket biomassa premium untuk berbagai kebutuhan",
+    "cta": "Ajukan RFQ",
+    "ctaDetail": "Dapatkan Spesifikasi Lengkap",
+    "specs": "Spesifikasi",
+    "benefits": "Manfaat",
+    "applications": "Aplikasi",
+    "downloadDatasheet": "Download Datasheet",
+    "items": [
+      {
+        "slug": "premium",
+        "title": "EcoBrew Premium Briquette",
+        "tagline": "Kualitas terbaik untuk performa maksimal",
+        "description": "Briket premium dengan kalori tertinggi dan pembakaran paling bersih. Cocok untuk berbagai aplikasi yang membutuhkan sumber energi andal dan konsisten.",
+        "specifications": [
+          { "label": "Kalori", "value": ">6.500 kkal/kg" },
+          { "label": "Kadar Air", "value": "<8%" },
+          { "label": "Kadar Abu", "value": "<3%" },
+          { "label": "Waktu Bakar", "value": "4-6 jam" },
+          { "label": "Diameter", "value": "50-80 mm" },
+          { "label": "Kemasan", "value": "10 kg, 20 kg, karung" }
+        ],
+        "benefits": [
+          "Panas tinggi dan konsisten",
+          "Asap sangat minimal",
+          "Cocok untuk berbagai tungku",
+          "Ramah lingkungan"
+        ],
+        "applications": ["Industri", "Hotel", "Restoran", "Pembangkit Listrik"]
+      },
+      {
+        "slug": "horeca",
+        "title": "HORECA Briquette",
+        "tagline": "Solusi energi profesional untuk HORECA",
+        "description": "Dirancang khusus untuk kebutuhan hotel, restoran, dan kafe. Memberikan panas yang stabil untuk memasak dan menghangatkan dengan efisien.",
+        "specifications": [
+          { "label": "Kalori", "value": ">6.000 kkal/kg" },
+          { "label": "Kadar Air", "value": "<10%" },
+          { "label": "Kadar Abu", "value": "<5%" },
+          { "label": "Waktu Bakar", "value": "3-5 jam" },
+          { "label": "Diameter", "value": "40-60 mm" },
+          { "label": "Kemasan", "value": "5 kg, 10 kg, 20 kg" }
+        ],
+        "benefits": [
+          "Pembakaran bersih untuk ruangan tertutup",
+          "Tidak mengganggu cita rasa makanan",
+          "Mudah dinyalakan",
+          "Ekonomis"
+        ],
+        "applications": ["Hotel", "Restoran", "Kafe", "Catering"]
+      },
+      {
+        "slug": "industrial",
+        "title": "Industrial Briquette",
+        "tagline": "Energi andal untuk industri Anda",
+        "description": "Briket berkualitas industrial dengan kapasitas panas tinggi untuk mendukung proses manufaktur dan produksi skala besar.",
+        "specifications": [
+          { "label": "Kalori", "value": ">6.300 kkal/kg" },
+          { "label": "Kadar Air", "value": "<8%" },
+          { "label": "Kadar Abu", "value": "<4%" },
+          { "label": "Waktu Bakar", "value": "5-8 jam" },
+          { "label": "Diameter", "value": "80-100 mm" },
+          { "label": "Kemasan", "value": "20 kg, 50 kg, karung besar" }
+        ],
+        "benefits": [
+          "Panas tinggi berkelanjutan",
+          "Efisiensi biaya energi",
+          "Mengurangi emisi industri",
+          "Pasokan stabil"
+        ],
+        "applications": ["Manufaktur", "Tekstil", "Pengolahan Makanan", "Pembangkit Uap"]
+      },
+      {
+        "slug": "bbq",
+        "title": "BBQ Briquette",
+        "tagline": "Briket BBQ premium untuk momen spesial",
+        "description": "Briket khusus BBQ yang menghasilkan panas sempurna untuk memasak. Dengan aroma natural dan pembakaran bersih, BBQ Anda akan lebih istimewa.",
+        "specifications": [
+          { "label": "Kalori", "value": ">5.800 kkal/kg" },
+          { "label": "Kadar Air", "value": "<10%" },
+          { "label": "Kadar Abu", "value": "<5%" },
+          { "label": "Waktu Bakar", "value": "3-5 jam" },
+          { "label": "Bentuk", "value": "Hexagonal, bulat" },
+          { "label": "Kemasan", "value": "2 kg, 5 kg, 10 kg" }
+        ],
+        "benefits": [
+          "Aroma kopi alami",
+          "Pembakaran bersih",
+          "Panas merata",
+          "Tidak mengandung bahan kimia"
+        ],
+        "applications": ["BBQ Rumahan", "Restoran BBQ", "Event Catering", "Outdoor Cooking"]
+      }
+    ]
+  },
+  "technology": {
+    "title": "Teknologi",
+    "subtitle": "Inovasi di balik setiap briket EcoBrew",
+    "bahanBaku": {
+      "title": "Bahan Baku",
+      "description": "Kami menggunakan ampas kopi pilihan dari roastery terkemuka, dicampur dengan biomassa alami lainnya seperti serbuk kayu dan tempurung kelapa. Setiap bahan baku melewati proses seleksi ketat untuk memastikan kualitas terbaik.",
+      "items": ["Ampas Kopi Premium", "Serbuk Kayu Alami", "Tempurung Kelapa", "Biomassa Lainnya"]
+    },
+    "ekstraksi": {
+      "title": "Ekstraksi Pektin",
+      "description": "Proses ekstraksi pektin dari ampas kopi meningkatkan nilai kalori dan mengurangi kadar air. Teknologi ini memisahkan komponen pektin untuk menghasilkan briket dengan performa pembakaran optimal."
+    },
+    "produksi": {
+      "title": "Proses Produksi",
+      "steps": [
+        { "step": "1", "title": "Pengumpulan Bahan", "description": "Ampas kopi dikumpulkan dari mitra roastery dan kafe." },
+        { "step": "2", "title": "Pengeringan", "description": "Bahan baku dikeringkan hingga kadar air optimal." },
+        { "step": "3", "title": "Karbonisasi", "description": "Proses pembakaran terkontrol untuk menghasilkan arang biomassa." },
+        { "step": "4", "title": "Pengepresan", "description": "Arang ditekan dengan tekanan tinggi menjadi briket padat." },
+        { "step": "5", "title": "Pengeringan Akhir", "description": "Briket dikeringkan kembali untuk memastikan kualitas maksimal." },
+        { "step": "6", "title": "Quality Check", "description": "Setiap batch diuji kalori, kadar air, dan kekuatan." },
+        { "step": "7", "title": "Pengemasan", "description": "Produk dikemas siap kirim dengan standar ekspor." }
+      ]
+    },
+    "qualityControl": {
+      "title": "Quality Control",
+      "description": "Setiap produk EcoBrew melalui serangkaian pengujian ketat di laboratorium kami untuk memastikan konsistensi kualitas.",
+      "items": [
+        "Uji Kalori (Bomb Calorimeter)",
+        "Analisis Proksimat (Proximate Analysis)",
+        "Uji Kadar Air & Abu",
+        "Uji Kekuatan Mekanis",
+        "Uji Emisi & Pembakaran"
+      ]
+    },
+    "laboratorium": {
+      "title": "Laboratorium",
+      "description": "Fasilitas laboratorium modern kami dilengkapi peralatan canggih untuk riset dan pengembangan produk, serta pengujian kualitas yang akurat dan terpercaya."
+    }
+  },
+  "sustainability": {
+    "title": "Keberlanjutan",
+    "subtitle": "Komitmen EcoBrew terhadap masa depan yang lebih hijau",
+    "circularEconomy": {
+      "title": "Circular Economy",
+      "description": "EcoBrew menerapkan prinsip ekonomi sirkular dengan mengubah limbah ampas kopi menjadi produk energi bernilai tinggi. Model bisnis kami mengurangi limbah, menciptakan nilai, dan menjaga sumber daya alam.",
+      "items": [
+        "Mengolah limbah ampas kopi menjadi briket premium",
+        "Mengurangi beban Tempat Pembuangan Akhir (TPA)",
+        "Menciptakan lapangan kerja hijau",
+        "Mendukung ekosistem daur ulang nasional"
+      ]
+    },
+    "emisi": {
+      "title": "Pengurangan Emisi",
+      "description": "Briket EcoBrew menghasilkan emisi CO2 hingga 60% lebih rendah dibandingkan bahan bakar fosil seperti batu bara dan minyak. Setiap ton briket yang digunakan menggantikan bahan bakar fosil, berkontribusi langsung pada pengurangan jejak karbon.",
+      "stat": "Setiap 1 ton briket EcoBrew mengurangi emisi CO2 hingga 1,8 ton"
+    },
+    "limbah": {
+      "title": "Pemanfaatan Limbah",
+      "description": "Indonesia menghasilkan lebih dari 300.000 ton ampas kopi per tahun. EcoBrew memanfaatkan limbah ini menjadi sumber energi yang bernilai, mengubah masalah lingkungan menjadi solusi berkelanjutan."
+    },
+    "esg": {
+      "title": "ESG (Environmental, Social, Governance)",
+      "environmental": {
+        "title": "Environmental",
+        "items": ["Pengurangan emisi karbon", "Pengelolaan limbah bertanggung jawab", "Konservasi sumber daya alam", "Produksi ramah lingkungan"]
+      },
+      "social": {
+        "title": "Social",
+        "items": ["Pemberdayaan petani kopi lokal", "Penciptaan lapangan kerja", "Edukasi energi terbarukan", "Kemitraan dengan komunitas"]
+      },
+      "governance": {
+        "title": "Governance",
+        "items": ["Transparansi bisnis", "Kepatuhan regulasi", "Standar etika tinggi", "Pelaporan berkelanjutan"]
+      }
+    },
+    "sdgs": {
+      "title": "Sustainable Development Goals (SDGs)",
+      "description": "EcoBrew berkontribusi pada pencapaian tujuan pembangunan berkelanjutan PBB:",
+      "items": [
+        { "number": "7", "title": "Energi Bersih dan Terjangkau", "description": "Menyediakan akses energi terbarukan yang terjangkau." },
+        { "number": "8", "title": "Pekerjaan Layak dan Pertumbuhan Ekonomi", "description": "Menciptakan lapangan kerja hijau dan pertumbuhan ekonomi inklusif." },
+        { "number": "12", "title": "Konsumsi dan Produksi yang Bertanggung Jawab", "description": "Mengelola limbah dan sumber daya secara bertanggung jawab." },
+        { "number": "13", "title": "Penanganan Perubahan Iklim", "description": "Mengurangi emisi karbon melalui energi terbarukan." }
+      ]
+    }
+  },
+  "industries": {
+    "title": "Industri",
+    "subtitle": "Solusi EcoBrew untuk berbagai sektor industri",
+    "items": [
+      {
+        "title": "Hotel",
+        "icon": "building",
+        "description": "Solusi energi untuk kebutuhan pemanas air, laundry, dapur, dan pemanas ruangan hotel. EcoBrew membantu hotel mengurangi biaya operasional dan mencapai target keberlanjutan.",
+        "benefits": ["Hemat biaya energi hingga 40%", "Mendukung sertifikasi green hotel", "Pasokan stabil & terjamin", "Mengurangi jejak karbon hotel"]
+      },
+      {
+        "title": "Restoran",
+        "icon": "utensils",
+        "description": "Briket EcoBrew untuk memasak, memanggang, dan menghangatkan makanan dengan performa optimal dan pembakaran bersih.",
+        "benefits": ["Panas konsisten untuk memasak", "Tidak mengganggu cita rasa", "Pembakaran bersih di dapur", "Biaya operasional lebih rendah"]
+      },
+      {
+        "title": "Kafe",
+        "icon": "coffee",
+        "description": "Dari ampas kopi kembali menjadi energi. Kafe dapat berpartisipasi dalam program circular economy EcoBrew dengan menyediakan ampas kopi untuk diolah.",
+        "benefits": ["Program daur ulang ampas kopi", "Branding ramah lingkungan", "Biaya energi lebih hemat", "Dukungan pemasaran hijau"]
+      },
+      {
+        "title": "Industri",
+        "icon": "factory",
+        "description": "Solusi bahan bakar biomassa untuk industri manufaktur, tekstil, pengolahan makanan, dan pembangkit uap skala besar.",
+        "benefits": ["Efisiensi biaya produksi", "Memenuhi regulasi emisi", "Alternatif batubara yang lebih bersih", "Ketersediaan pasokan massal"]
+      },
+      {
+        "title": "Export Market",
+        "icon": "globe",
+        "description": "Produk EcoBrew siap diekspor ke pasar internasional dengan memenuhi standar kualitas global, sertifikasi, dan persyaratan kepabeanan.",
+        "benefits": ["Standar kualitas internasional", "Sertifikasi lengkap", "Kemasan ekspor profesional", "Jaringan distribusi global"]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galeri",
+    "subtitle": "Momen dan fasilitas EcoBrew Briquette",
+    "categories": {
+      "all": "Semua",
+      "produksi": "Produksi",
+      "mesin": "Mesin",
+      "gudang": "Gudang",
+      "produk": "Produk",
+      "laboratorium": "Laboratorium",
+      "mitra": "Mitra"
+    },
+    "items": [
+      { "category": "produksi", "title": "Lini Produksi Utama", "description": "Proses produksi briket skala industrial", "image": "" },
+      { "category": "mesin", "title": "Mesin Press Briket", "description": "Mesin press hidrolik kapasitas tinggi", "image": "" },
+      { "category": "gudang", "title": "Gudang Penyimpanan", "description": "Fasilitas penyimpanan produk jadi", "image": "" },
+      { "category": "produk", "title": "Premium Briquette", "description": "Produk briket premium EcoBrew", "image": "" },
+      { "category": "laboratorium", "title": "Laboratorium Uji", "description": "Pengujian kualitas produk", "image": "" },
+      { "category": "mitra", "title": "Kunjungan Mitra", "description": "Kolaborasi dengan mitra bisnis", "image": "" },
+      { "category": "produksi", "title": "Pengeringan Bahan Baku", "description": "Proses pengeringan ampas kopi", "image": "" },
+      { "category": "mesin", "title": "Mesin Karbonisasi", "description": "Unit karbonisasi biomassa", "image": "" },
+      { "category": "produk", "title": "HORECA Briquette", "description": "Kemasan produk untuk sektor HORECA", "image": "" },
+      { "category": "laboratorium", "title": "Tim Riset", "description": "Tim R&D melakukan pengembangan produk", "image": "" },
+      { "category": "gudang", "title": "Logistik", "description": "Persiapan pengiriman ekspor", "image": "" },
+      { "category": "mitra", "title": "Penandatanganan Kerjasama", "description": "Kerjasama dengan mitra strategis", "image": "/images/gallery/penandatanganan.jpg" }
+    ]
+  },
+  "blog": {
+    "title": "Blog & Berita",
+    "subtitle": "Artikel, edukasi, dan berita terbaru seputar bioenergi dan keberlanjutan",
+    "readMore": "Baca Selengkapnya",
+    "categories": {
+      "all": "Semua",
+      "artikel": "Artikel",
+      "edukasi": "Edukasi Biomassa",
+      "berita": "Berita Perusahaan",
+      "tips": "Tips Keberlanjutan"
+    },
+    "items": [
+      {
+        "slug": "manfaat-briket-biomassa",
+        "category": "edukasi",
+        "title": "Manfaat Briket Biomassa untuk Industri",
+        "excerpt": "Pelajari bagaimana briket biomassa dapat menjadi solusi energi yang lebih bersih dan ekonomis untuk industri Anda.",
+        "author": "Tim EcoBrew",
+        "date": "2026-06-15",
+        "content": "Briket biomassa telah menjadi solusi energi alternatif yang semakin populer di sektor industri. Dengan nilai kalori yang tinggi dan emisi yang rendah, briket biomassa menawarkan berbagai keuntungan dibandingkan bahan bakar fosil tradisional..."
+      },
+      {
+        "slug": "circular-economy-kopi",
+        "category": "artikel",
+        "title": "Circular Economy: Dari Ampas Kopi Menjadi Energi",
+        "excerpt": "Bagaimana EcoBrew mengubah limbah ampas kopi menjadi briket biomassa bernilai tinggi melalui konsep ekonomi sirkular.",
+        "author": "Tim EcoBrew",
+        "date": "2026-05-28",
+        "content": "Konsep ekonomi sirkular menjadi semakin relevan di tengah krisis iklim dan meningkatnya volume limbah. EcoBrew hadir dengan solusi inovatif yang mengubah ampas kopi..."
+      },
+      {
+        "slug": "eco-brew-ekspor-perdana",
+        "category": "berita",
+        "title": "EcoBrew Lakukan Ekspor Perdana ke Korea Selatan",
+        "excerpt": "Pencapaian bersejarah: EcoBrew mengirimkan kontainer pertama produk briket premium ke pasar Korea Selatan.",
+        "author": "Tim EcoBrew",
+        "date": "2026-05-10",
+        "content": "EcoBrew Briquette hari ini mengumumkan pencapaian penting dengan melakukan pengiriman ekspor perdana ke Korea Selatan..."
+      },
+      {
+        "slug": "tips-memilih-briket",
+        "category": "tips",
+        "title": "Tips Memilih Briket yang Tepat untuk Bisnis Anda",
+        "excerpt": "Panduan lengkap memilih jenis briket yang sesuai dengan kebutuhan bisnis Anda.",
+        "author": "Tim EcoBrew",
+        "date": "2026-04-20",
+        "content": "Memilih briket yang tepat untuk bisnis Anda sangat penting untuk memastikan efisiensi energi dan biaya yang optimal..."
+      },
+      {
+        "slug": "teknologi-produksi-briket",
+        "category": "edukasi",
+        "title": "Teknologi di Balik Produksi Briket Premium",
+        "excerpt": "Mengenal proses produksi briket EcoBrew dari bahan baku hingga produk siap pakai.",
+        "author": "Tim EcoBrew",
+        "date": "2026-04-05",
+        "content": "Produksi briket premium memerlukan kombinasi teknologi tepat guna dan kontrol kualitas yang ketat..."
+      },
+      {
+        "slug": "eco-brew-green-award",
+        "category": "berita",
+        "title": "EcoBrew Raih Penghargaan Inovasi Hijau 2026",
+        "excerpt": "EcoBrew dianugerahi penghargaan atas inovasi dalam energi terbarukan dan pengelolaan limbah.",
+        "author": "Tim EcoBrew",
+        "date": "2026-03-15",
+        "content": "EcoBrew Briquette dengan bangga mengumumkan bahwa perusahaan telah meraih penghargaan Inovasi Hijau 2026..."
+      }
+    ]
+  },
+  "investors": {
+    "title": "Investor",
+    "subtitle": "Peluang investasi di masa depan bioenergi",
+    "marketOpportunity": {
+      "title": "Market Opportunity",
+      "description": "Pasar bioenergi global diproyeksikan mencapai USD 220 miliar pada 2030. Dengan meningkatnya kesadaran akan perubahan iklim dan kebijakan energi bersih, permintaan akan briket biomassa terus tumbuh signifikan.",
+      "items": [
+        "Pasar briket biomassa global tumbuh 12% per tahun",
+        "Indonesia penghasil ampas kopi terbesar ke-4 dunia",
+        "Kebijakan pemerintah mendukung transisi energi terbarukan",
+        "Permintaan tinggi dari pasar ekspor Eropa & Asia"
+      ]
+    },
+    "businessModel": {
+      "title": "Business Model",
+      "items": [
+        "Penjualan B2B langsung ke HORECA dan industri",
+        "Kemitraan distribusi nasional dan internasional",
+        "Program OEM/Private Label",
+        "Platform e-commerce B2B"
+      ]
+    },
+    "growthStrategy": {
+      "title": "Growth Strategy",
+      "items": [
+        "Ekspansi kapasitas produksi 3x lipat dalam 2 tahun",
+        "Pengembangan varian produk baru",
+        "Ekspansi ke pasar Asia Tenggara dan Timur Tengah",
+        "Pengembangan teknologi ekstraksi pektin"
+      ]
+    },
+    "financialHighlights": {
+      "title": "Financial Highlights",
+      "items": [
+        "Pendapatan tumbuh 150% YoY",
+        "Gross margin 35%",
+        "Break-even tercapai di tahun pertama",
+        "Proyeksi mencapai EBITDA positif di tahun ke-3"
+      ]
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "items": [
+        { "year": "2025", "title": "Fase Awal", "description": "Pendirian perusahaan, pembangunan pabrik, produksi perdana" },
+        { "year": "2026", "title": "Ekspansi Pasar", "description": "Ekspor perdana, kemitraan distribusi, perluasan tim" },
+        { "year": "2027", "title": "Skala Produksi", "description": "Peningkatan kapasitas 3x, diversifikasi produk" },
+        { "year": "2028", "title": "Pemimpin Pasar", "description": "Market leader regional, IPO persiapan" }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Kontak",
+    "subtitle": "Hubungi tim EcoBrew untuk informasi lebih lanjut",
+    "form": {
+      "title": "Kirim Pesan",
+      "name": "Nama Lengkap",
+      "email": "Email",
+      "phone": "Nomor Telepon",
+      "company": "Perusahaan",
+      "subject": "Subjek",
+      "subjects": {
+        "info": "Informasi Produk",
+        "rfq": "Permintaan Penawaran (RFQ)",
+        "partnership": "Kerjasama & Kemitraan",
+        "investor": "Informasi Investor",
+        "other": "Lainnya"
+      },
+      "message": "Pesan",
+      "submit": "Kirim Pesan",
+      "success": "Pesan berhasil dikirim. Tim kami akan menghubungi Anda segera.",
+      "error": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "rfq": {
+      "title": "Permintaan Penawaran (RFQ)",
+      "subtitle": "Dapatkan penawaran harga terbaik untuk kebutuhan briket Anda",
+      "product": "Produk yang Diminati",
+      "quantity": "Jumlah (ton/bulan)",
+      "delivery": "Lokasi Pengiriman",
+      "submit": "Ajukan RFQ",
+      "success": "Permintaan penawaran berhasil dikirim. Tim sales kami akan menghubungi Anda dalam 1x24 jam.",
+      "error": "Terjadi kesalahan. Silakan coba lagi atau hubungi kami langsung."
+    },
+    "info": {
+      "address": "Jl. Industri Hijau No. 123, Bandung, Jawa Barat 40123, Indonesia",
+      "phone": "+62 812 3456 7890",
+      "email": "info@ecobrew.co.id",
+      "sales": "sales@ecobrew.co.id",
+      "hours": "Senin - Jumat: 08:00 - 17:00 WIB"
+    },
+    "whatsapp": {
+      "text": "Halo EcoBrew! Saya tertarik dengan produk briket Anda."
+    }
+  },
+  "footer": {
+    "description": "Menghadirkan solusi bioenergi berkelanjutan dari limbah biomassa untuk masa depan yang lebih hijau.",
+    "quickLinks": "Tautan Cepat",
+    "products": "Produk",
+    "contact": "Kontak",
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Masukkan email Anda",
+      "button": "Berlangganan",
+      "success": "Terima kasih! Anda telah berlangganan newsletter kami."
+    },
+    "copyright": "© 2026 EcoBrew Briquette. Seluruh hak cipta dilindungi.",
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "facebook": "Facebook"
+    }
+  }
+}

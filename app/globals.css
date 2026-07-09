@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #1E5631;
+  --color-forest-light: #2D7A45;
+  --color-forest-dark: #143D22;
+  --color-coffee: #6F4E37;
+  --color-coffee-light: #8B6B54;
+  --color-coffee-dark: #4E3526;
+  --color-charcoal: #222222;
+  --color-charcoal-light: #333333;
+  --color-cream: #F7F4ED;
+  --color-cream-dark: #EBE5D9;
+}
+
+@variant dark (&:where(.dark, .dark *));

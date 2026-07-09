@@ -1,0 +1,597 @@
+{
+  "site": {
+    "title": "EcoBrew Briquette",
+    "tagline": "The Future of Sustainable Bioenergy",
+    "description": "Biomass-based renewable energy solutions for HORECA, industry, and export markets."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "technology": "Technology",
+    "sustainability": "Sustainability",
+    "industries": "Industries",
+    "gallery": "Gallery",
+    "blog": "News & Blog",
+    "investors": "Investors",
+    "contact": "Contact",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "home": {
+    "hero": {
+      "title": "The Future of Sustainable Bioenergy",
+      "subtitle": "Premium Briquettes from Coffee Grounds & Biomass for Global Industry",
+      "cta": "Explore Products",
+      "ctaSecondary": "Request RFQ"
+    },
+    "valueProposition": {
+      "title": "Why EcoBrew?",
+      "items": [
+        {
+          "icon": "recycle",
+          "title": "Circular Economy",
+          "description": "Transforming coffee waste into high-value energy sources."
+        },
+        {
+          "icon": "leaf",
+          "title": "Eco-Friendly",
+          "description": "Reducing carbon emissions by up to 60% compared to fossil fuels."
+        },
+        {
+          "icon": "award",
+          "title": "Premium Quality",
+          "description": "International standards with high calories, low smoke, and long durability."
+        },
+        {
+          "icon": "globe",
+          "title": "Export Ready",
+          "description": "Meeting European, Asian, and Middle Eastern market standards."
+        }
+      ]
+    },
+    "keunggulan": {
+      "title": "EcoBrew Advantage",
+      "items": [
+        {
+          "title": "High Calorie",
+          "description": "Calorific value >6,500 kcal/kg, higher than conventional briquettes."
+        },
+        {
+          "title": "Low Emission",
+          "description": "60% lower CO2 emissions with minimal smoke."
+        },
+        {
+          "title": "Durable",
+          "description": "Burn time up to 4-6 hours with consistent heat."
+        },
+        {
+          "title": "Eco-Friendly",
+          "description": "100% natural raw materials from biomass waste."
+        },
+        {
+          "title": "Premium Quality",
+          "description": "Modern production process with strict quality control."
+        },
+        {
+          "title": "Customizable",
+          "description": "Available in various shapes, sizes, and packaging."
+        }
+      ]
+    },
+    "produkUnggulan": {
+      "title": "Featured Products",
+      "subtitle": "Best energy solutions for various industrial and commercial needs",
+      "cta": "View All Products",
+      "items": [
+        {
+          "title": "Premium Briquette",
+          "description": "Premium briquette with highest quality for various applications.",
+          "slug": "premium"
+        },
+        {
+          "title": "HORECA Briquette",
+          "description": "Specifically for hotels, restaurants, and cafes.",
+          "slug": "horeca"
+        },
+        {
+          "title": "Industrial Briquette",
+          "description": "Energy solutions for manufacturing and production industries.",
+          "slug": "industrial"
+        },
+        {
+          "title": "BBQ Briquette",
+          "description": "Special BBQ briquettes with natural aroma and clean burning.",
+          "slug": "bbq"
+        }
+      ]
+    },
+    "sustainability": {
+      "title": "Sustainability Impact",
+      "subtitle": "Our commitment to Circular Economy, ESG, and SDGs",
+      "stats": [
+        { "value": "60%", "label": "CO2 Emission Reduction" },
+        { "value": "100%", "label": "Natural Raw Materials" },
+        { "value": "500+", "label": "Tons of Waste Processed/Year" },
+        { "value": "4+", "label": "SDGs Achieved" }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Switch to Sustainable Energy?",
+      "subtitle": "Contact our team for the best offer",
+      "button": "Contact Us"
+    }
+  },
+  "about": {
+    "title": "About EcoBrew Briquette",
+    "subtitle": "Sustainable energy innovation from biomass waste for a greener future",
+    "profile": {
+      "title": "Company Profile",
+      "description": "EcoBrew Briquette is a bioenergy company focused on producing high-quality briquettes from coffee grounds and other biomass. Founded with a vision to lead the renewable energy transition, we combine innovative technology with a strong commitment to environmental sustainability. We serve various sectors from HORECA to heavy industry, as well as export markets in Europe, Asia, and the Middle East."
+    },
+    "visiMisi": {
+      "title": "Vision & Mission",
+      "visi": {
+        "title": "Vision",
+        "content": "To become a leading global bioenergy company that transforms biomass waste into sustainable energy solutions for a greener future."
+      },
+      "misi": [
+        "Produce premium biomass briquettes with international standards.",
+        "Reduce environmental impact through responsible waste management.",
+        "Empower local communities through inclusive and sustainable supply chains.",
+        "Actively contribute to the achievement of Sustainable Development Goals (SDGs).",
+        "Educate the market about the benefits of biomass renewable energy."
+      ]
+    },
+    "cerita": {
+      "title": "The EcoBrew Story",
+      "content": "EcoBrew was born from concern over the mounting coffee ground waste across Indonesia. As the world's fourth-largest coffee producer, Indonesia generates millions of tons of coffee grounds annually that end up in landfills. Through research and innovation, the EcoBrew team discovered a way to turn this 'waste' into 'black gold' - high-value biomass briquettes. Our journey began in a small laboratory, and has now grown into a company serving customers across multiple countries."
+    },
+    "tim": {
+      "title": "Our Team",
+      "members": [
+        { "name": "Ahmad Rizki", "role": "CEO & Founder", "bio": "Renewable energy expert with 15 years of experience in the bioenergy industry." },
+        { "name": "Sarah Wijaya", "role": "COO", "bio": "Operations and supply chain specialist focused on efficiency and sustainability." },
+        { "name": "Dr. Budi Santoso", "role": "CTO", "bio": "PhD in biomass technology with dozens of scientific publications." },
+        { "name": "Maya Putri", "role": "CMO", "bio": "B2B marketing strategist with global networks in the renewable energy sector." }
+      ]
+    },
+    "nilai": {
+      "title": "Company Values",
+      "items": [
+        { "title": "Innovation", "description": "Continuously pushing the boundaries of bioenergy technology." },
+        { "title": "Integrity", "description": "Transparent and responsible in every aspect of business." },
+        { "title": "Sustainability", "description": "Commitment to the environment and society." },
+        { "title": "Quality", "description": "Highest standards in every product and service." },
+        { "title": "Collaboration", "description": "Working with partners for greater impact." }
+      ]
+    }
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Premium biomass briquette solutions for various needs",
+    "cta": "Request RFQ",
+    "ctaDetail": "Get Full Specifications",
+    "specs": "Specifications",
+    "benefits": "Benefits",
+    "applications": "Applications",
+    "downloadDatasheet": "Download Datasheet",
+    "items": [
+      {
+        "slug": "premium",
+        "title": "EcoBrew Premium Briquette",
+        "tagline": "Best quality for maximum performance",
+        "description": "Premium briquette with highest calorific value and cleanest burning. Suitable for various applications requiring reliable and consistent energy sources.",
+        "specifications": [
+          { "label": "Calorific Value", "value": ">6,500 kcal/kg" },
+          { "label": "Moisture Content", "value": "<8%" },
+          { "label": "Ash Content", "value": "<3%" },
+          { "label": "Burn Time", "value": "4-6 hours" },
+          { "label": "Diameter", "value": "50-80 mm" },
+          { "label": "Packaging", "value": "10 kg, 20 kg, sacks" }
+        ],
+        "benefits": [
+          "High and consistent heat",
+          "Minimal smoke",
+          "Suitable for various furnaces",
+          "Eco-friendly"
+        ],
+        "applications": ["Industry", "Hotels", "Restaurants", "Power Plants"]
+      },
+      {
+        "slug": "horeca",
+        "title": "HORECA Briquette",
+        "tagline": "Professional energy solution for HORECA",
+        "description": "Specifically designed for hotels, restaurants, and cafes. Provides stable heat for cooking and warming efficiently.",
+        "specifications": [
+          { "label": "Calorific Value", "value": ">6,000 kcal/kg" },
+          { "label": "Moisture Content", "value": "<10%" },
+          { "label": "Ash Content", "value": "<5%" },
+          { "label": "Burn Time", "value": "3-5 hours" },
+          { "label": "Diameter", "value": "40-60 mm" },
+          { "label": "Packaging", "value": "5 kg, 10 kg, 20 kg" }
+        ],
+        "benefits": [
+          "Clean burning for indoor spaces",
+          "Does not affect food flavor",
+          "Easy to ignite",
+          "Cost effective"
+        ],
+        "applications": ["Hotels", "Restaurants", "Cafes", "Catering"]
+      },
+      {
+        "slug": "industrial",
+        "title": "Industrial Briquette",
+        "tagline": "Reliable energy for your industry",
+        "description": "Industrial grade briquette with high heat capacity to support large-scale manufacturing and production processes.",
+        "specifications": [
+          { "label": "Calorific Value", "value": ">6,300 kcal/kg" },
+          { "label": "Moisture Content", "value": "<8%" },
+          { "label": "Ash Content", "value": "<4%" },
+          { "label": "Burn Time", "value": "5-8 hours" },
+          { "label": "Diameter", "value": "80-100 mm" },
+          { "label": "Packaging", "value": "20 kg, 50 kg, bulk bags" }
+        ],
+        "benefits": [
+          "Sustained high heat",
+          "Energy cost efficiency",
+          "Reduces industrial emissions",
+          "Stable supply"
+        ],
+        "applications": ["Manufacturing", "Textile", "Food Processing", "Steam Generation"]
+      },
+      {
+        "slug": "bbq",
+        "title": "BBQ Briquette",
+        "tagline": "Premium BBQ briquettes for special moments",
+        "description": "Special BBQ briquettes that produce perfect heat for cooking. With natural aroma and clean burning, your BBQ will be more special.",
+        "specifications": [
+          { "label": "Calorific Value", "value": ">5,800 kcal/kg" },
+          { "label": "Moisture Content", "value": "<10%" },
+          { "label": "Ash Content", "value": "<5%" },
+          { "label": "Burn Time", "value": "3-5 hours" },
+          { "label": "Shape", "value": "Hexagonal, round" },
+          { "label": "Packaging", "value": "2 kg, 5 kg, 10 kg" }
+        ],
+        "benefits": [
+          "Natural coffee aroma",
+          "Clean burning",
+          "Even heat distribution",
+          "Chemical-free"
+        ],
+        "applications": ["Home BBQ", "BBQ Restaurants", "Event Catering", "Outdoor Cooking"]
+      }
+    ]
+  },
+  "technology": {
+    "title": "Technology",
+    "subtitle": "Innovation behind every EcoBrew briquette",
+    "bahanBaku": {
+      "title": "Raw Materials",
+      "description": "We use premium coffee grounds from leading roasteries, mixed with other natural biomass such as wood dust and coconut shells. Each raw material undergoes a strict selection process to ensure the best quality.",
+      "items": ["Premium Coffee Grounds", "Natural Wood Dust", "Coconut Shells", "Other Biomass"]
+    },
+    "ekstraksi": {
+      "title": "Pectin Extraction",
+      "description": "The pectin extraction process from coffee grounds increases calorific value and reduces moisture content. This technology separates pectin components to produce briquettes with optimal burning performance."
+    },
+    "produksi": {
+      "title": "Production Process",
+      "steps": [
+        { "step": "1", "title": "Material Collection", "description": "Coffee grounds are collected from partner roasteries and cafes." },
+        { "step": "2", "title": "Drying", "description": "Raw materials are dried to optimal moisture content." },
+        { "step": "3", "title": "Carbonization", "description": "Controlled burning process to produce biomass charcoal." },
+        { "step": "4", "title": "Pressing", "description": "Charcoal is pressed under high pressure into dense briquettes." },
+        { "step": "5", "title": "Final Drying", "description": "Briquettes are dried again to ensure maximum quality." },
+        { "step": "6", "title": "Quality Check", "description": "Each batch is tested for calories, moisture, and strength." },
+        { "step": "7", "title": "Packaging", "description": "Products are packed ready for shipping with export standards." }
+      ]
+    },
+    "qualityControl": {
+      "title": "Quality Control",
+      "description": "Every EcoBrew product undergoes a series of rigorous tests in our laboratory to ensure consistent quality.",
+      "items": [
+        "Calorie Test (Bomb Calorimeter)",
+        "Proximate Analysis",
+        "Moisture & Ash Content Test",
+        "Mechanical Strength Test",
+        "Emission & Combustion Test"
+      ]
+    },
+    "laboratorium": {
+      "title": "Laboratory",
+      "description": "Our modern laboratory facility is equipped with advanced instruments for research and product development, as well as accurate and reliable quality testing."
+    }
+  },
+  "sustainability": {
+    "title": "Sustainability",
+    "subtitle": "EcoBrew's commitment to a greener future",
+    "circularEconomy": {
+      "title": "Circular Economy",
+      "description": "EcoBrew applies circular economy principles by transforming coffee ground waste into high-value energy products. Our business model reduces waste, creates value, and preserves natural resources.",
+      "items": [
+        "Processing coffee ground waste into premium briquettes",
+        "Reducing landfill burden",
+        "Creating green jobs",
+        "Supporting national recycling ecosystem"
+      ]
+    },
+    "emisi": {
+      "title": "Emission Reduction",
+      "description": "EcoBrew briquettes produce up to 60% lower CO2 emissions compared to fossil fuels like coal and oil. Each ton of briquettes used replaces fossil fuels, directly contributing to carbon footprint reduction.",
+      "stat": "Every 1 ton of EcoBrew briquettes reduces CO2 emissions by up to 1.8 tons"
+    },
+    "limbah": {
+      "title": "Waste Utilization",
+      "description": "Indonesia produces over 300,000 tons of coffee grounds annually. EcoBrew utilizes this waste into a valuable energy source, turning an environmental problem into a sustainable solution."
+    },
+    "esg": {
+      "title": "ESG (Environmental, Social, Governance)",
+      "environmental": {
+        "title": "Environmental",
+        "items": ["Carbon emission reduction", "Responsible waste management", "Natural resource conservation", "Eco-friendly production"]
+      },
+      "social": {
+        "title": "Social",
+        "items": ["Empowering local coffee farmers", "Job creation", "Renewable energy education", "Community partnerships"]
+      },
+      "governance": {
+        "title": "Governance",
+        "items": ["Business transparency", "Regulatory compliance", "High ethical standards", "Sustainable reporting"]
+      }
+    },
+    "sdgs": {
+      "title": "Sustainable Development Goals (SDGs)",
+      "description": "EcoBrew contributes to the achievement of UN sustainable development goals:",
+      "items": [
+        { "number": "7", "title": "Affordable and Clean Energy", "description": "Providing access to affordable renewable energy." },
+        { "number": "8", "title": "Decent Work and Economic Growth", "description": "Creating green jobs and inclusive economic growth." },
+        { "number": "12", "title": "Responsible Consumption and Production", "description": "Managing waste and resources responsibly." },
+        { "number": "13", "title": "Climate Action", "description": "Reducing carbon emissions through renewable energy." }
+      ]
+    }
+  },
+  "industries": {
+    "title": "Industries",
+    "subtitle": "EcoBrew solutions for various industry sectors",
+    "items": [
+      {
+        "title": "Hotel",
+        "icon": "building",
+        "description": "Energy solutions for hotel water heating, laundry, kitchen, and space heating. EcoBrew helps hotels reduce operational costs and achieve sustainability targets.",
+        "benefits": ["Save up to 40% on energy costs", "Support green hotel certification", "Stable & guaranteed supply", "Reduce hotel carbon footprint"]
+      },
+      {
+        "title": "Restaurant",
+        "icon": "utensils",
+        "description": "EcoBrew briquettes for cooking, grilling, and food warming with optimal performance and clean burning.",
+        "benefits": ["Consistent heat for cooking", "Does not affect flavor", "Clean burning in kitchen", "Lower operational costs"]
+      },
+      {
+        "title": "Cafe",
+        "icon": "coffee",
+        "description": "From coffee grounds back to energy. Cafes can participate in EcoBrew's circular economy program by supplying coffee grounds for processing.",
+        "benefits": ["Coffee grounds recycling program", "Eco-friendly branding", "More efficient energy costs", "Green marketing support"]
+      },
+      {
+        "title": "Industry",
+        "icon": "factory",
+        "description": "Biomass fuel solutions for manufacturing, textile, food processing, and large-scale steam generation industries.",
+        "benefits": ["Production cost efficiency", "Meet emission regulations", "Cleaner coal alternative", "Bulk supply availability"]
+      },
+      {
+        "title": "Export Market",
+        "icon": "globe",
+        "description": "EcoBrew products are ready for export to international markets, meeting global quality standards, certifications, and customs requirements.",
+        "benefits": ["International quality standards", "Complete certifications", "Professional export packaging", "Global distribution network"]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "EcoBrew Briquette moments and facilities",
+    "categories": {
+      "all": "All",
+      "produksi": "Production",
+      "mesin": "Machinery",
+      "gudang": "Warehouse",
+      "produk": "Products",
+      "laboratorium": "Laboratory",
+      "mitra": "Partners"
+    },
+    "items": [
+      { "category": "produksi", "title": "Main Production Line", "description": "Industrial scale briquette production process", "image": "" },
+      { "category": "mesin", "title": "Briquette Press Machine", "description": "High capacity hydraulic press machine", "image": "" },
+      { "category": "gudang", "title": "Storage Warehouse", "description": "Finished product storage facility", "image": "" },
+      { "category": "produk", "title": "Premium Briquette", "description": "EcoBrew premium briquette product", "image": "" },
+      { "category": "laboratorium", "title": "Testing Laboratory", "description": "Product quality testing", "image": "" },
+      { "category": "mitra", "title": "Partner Visit", "description": "Collaboration with business partners", "image": "" },
+      { "category": "produksi", "title": "Raw Material Drying", "description": "Coffee grounds drying process", "image": "" },
+      { "category": "mesin", "title": "Carbonization Machine", "description": "Biomass carbonization unit", "image": "" },
+      { "category": "produk", "title": "HORECA Briquette", "description": "Product packaging for HORECA sector", "image": "" },
+      { "category": "laboratorium", "title": "Research Team", "description": "R&D team conducting product development", "image": "" },
+      { "category": "gudang", "title": "Logistics", "description": "Export shipment preparation", "image": "" },
+      { "category": "mitra", "title": "Partnership Signing", "description": "Collaboration with strategic partners", "image": "/images/gallery/penandatanganan.jpg" }
+    ]
+  },
+  "blog": {
+    "title": "News & Blog",
+    "subtitle": "Articles, education, and latest news on bioenergy and sustainability",
+    "readMore": "Read More",
+    "categories": {
+      "all": "All",
+      "artikel": "Articles",
+      "edukasi": "Biomass Education",
+      "berita": "Company News",
+      "tips": "Sustainability Tips"
+    },
+    "items": [
+      {
+        "slug": "manfaat-briket-biomassa",
+        "category": "edukasi",
+        "title": "Benefits of Biomass Briquettes for Industry",
+        "excerpt": "Learn how biomass briquettes can be a cleaner and more economical energy solution for your industry.",
+        "author": "EcoBrew Team",
+        "date": "2026-06-15",
+        "content": "Biomass briquettes have become an increasingly popular alternative energy solution in the industrial sector. With high calorific value and low emissions, biomass briquettes offer various advantages compared to traditional fossil fuels..."
+      },
+      {
+        "slug": "circular-economy-kopi",
+        "category": "artikel",
+        "title": "Circular Economy: From Coffee Grounds to Energy",
+        "excerpt": "How EcoBrew transforms coffee ground waste into high-value biomass briquettes through circular economy concepts.",
+        "author": "EcoBrew Team",
+        "date": "2026-05-28",
+        "content": "The circular economy concept is becoming increasingly relevant amid the climate crisis and growing waste volumes. EcoBrew presents an innovative solution that transforms coffee grounds..."
+      },
+      {
+        "slug": "eco-brew-ekspor-perdana",
+        "category": "berita",
+        "title": "EcoBrew Makes First Export to South Korea",
+        "excerpt": "Historic achievement: EcoBrew ships first container of premium briquette products to the South Korean market.",
+        "author": "EcoBrew Team",
+        "date": "2026-05-10",
+        "content": "EcoBrew Briquette today announced a significant milestone by making its first export shipment to South Korea..."
+      },
+      {
+        "slug": "tips-memilih-briket",
+        "category": "tips",
+        "title": "Tips for Choosing the Right Briquette for Your Business",
+        "excerpt": "Complete guide to choosing the right type of briquette for your business needs.",
+        "author": "EcoBrew Team",
+        "date": "2026-04-20",
+        "content": "Choosing the right briquette for your business is crucial to ensure optimal energy efficiency and costs..."
+      },
+      {
+        "slug": "teknologi-produksi-briket",
+        "category": "edukasi",
+        "title": "Technology Behind Premium Briquette Production",
+        "excerpt": "Get to know EcoBrew's briquette production process from raw materials to ready-to-use products.",
+        "author": "EcoBrew Team",
+        "date": "2026-04-05",
+        "content": "Premium briquette production requires a combination of appropriate technology and strict quality control..."
+      },
+      {
+        "slug": "eco-brew-green-award",
+        "category": "berita",
+        "title": "EcoBrew Wins Green Innovation Award 2026",
+        "excerpt": "EcoBrew awarded for innovation in renewable energy and waste management.",
+        "author": "EcoBrew Team",
+        "date": "2026-03-15",
+        "content": "EcoBrew Briquette is proud to announce that the company has won the Green Innovation Award 2026..."
+      }
+    ]
+  },
+  "investors": {
+    "title": "Investors",
+    "subtitle": "Investment opportunities in the future of bioenergy",
+    "marketOpportunity": {
+      "title": "Market Opportunity",
+      "description": "The global bioenergy market is projected to reach USD 220 billion by 2030. With growing awareness of climate change and clean energy policies, demand for biomass briquettes continues to grow significantly.",
+      "items": [
+        "Global biomass briquette market growing 12% annually",
+        "Indonesia is the world's 4th largest coffee producer",
+        "Government policies support renewable energy transition",
+        "High demand from European & Asian export markets"
+      ]
+    },
+    "businessModel": {
+      "title": "Business Model",
+      "items": [
+        "Direct B2B sales to HORECA and industry",
+        "National and international distribution partnerships",
+        "OEM/Private Label program",
+        "B2B e-commerce platform"
+      ]
+    },
+    "growthStrategy": {
+      "title": "Growth Strategy",
+      "items": [
+        "3x production capacity expansion within 2 years",
+        "New product variant development",
+        "Expansion to Southeast Asia and Middle East markets",
+        "Pectin extraction technology development"
+      ]
+    },
+    "financialHighlights": {
+      "title": "Financial Highlights",
+      "items": [
+        "Revenue growing 150% YoY",
+        "Gross margin 35%",
+        "Break-even achieved in first year",
+        "Projected positive EBITDA by year 3"
+      ]
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "items": [
+        { "year": "2025", "title": "Initial Phase", "description": "Company establishment, factory construction, initial production" },
+        { "year": "2026", "title": "Market Expansion", "description": "First export, distribution partnerships, team expansion" },
+        { "year": "2027", "title": "Production Scale", "description": "3x capacity increase, product diversification" },
+        { "year": "2028", "title": "Market Leader", "description": "Regional market leader, IPO preparation" }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contact EcoBrew team for more information",
+    "form": {
+      "title": "Send Message",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "company": "Company",
+      "subject": "Subject",
+      "subjects": {
+        "info": "Product Information",
+        "rfq": "Request for Quotation (RFQ)",
+        "partnership": "Partnership",
+        "investor": "Investor Information",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully. Our team will contact you shortly.",
+      "error": "An error occurred. Please try again."
+    },
+    "rfq": {
+      "title": "Request for Quotation (RFQ)",
+      "subtitle": "Get the best price offer for your briquette needs",
+      "product": "Product of Interest",
+      "quantity": "Quantity (tons/month)",
+      "delivery": "Delivery Location",
+      "submit": "Submit RFQ",
+      "success": "RFQ submitted successfully. Our sales team will contact you within 24 hours.",
+      "error": "An error occurred. Please try again or contact us directly."
+    },
+    "info": {
+      "address": "Jl. Industri Hijau No. 123, Bandung, West Java 40123, Indonesia",
+      "phone": "+62 812 3456 7890",
+      "email": "info@ecobrew.co.id",
+      "sales": "sales@ecobrew.co.id",
+      "hours": "Monday - Friday: 08:00 - 17:00 WIB"
+    },
+    "whatsapp": {
+      "text": "Hello EcoBrew! I am interested in your briquette products."
+    }
+  },
+  "footer": {
+    "description": "Delivering sustainable bioenergy solutions from biomass waste for a greener future.",
+    "quickLinks": "Quick Links",
+    "products": "Products",
+    "contact": "Contact",
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "success": "Thank you! You have subscribed to our newsletter."
+    },
+    "copyright": "© 2026 EcoBrew Briquette. All rights reserved.",
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "facebook": "Facebook"
+    }
+  }
+}
