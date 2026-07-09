@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 import ThemeToggle from "./ThemeToggle";
@@ -42,10 +43,14 @@ export default function Header() {
           href={`/${lang}`}
           className="flex items-center gap-2 text-xl font-bold text-forest dark:text-forest-light"
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-forest text-sm font-bold text-white dark:bg-forest-light dark:text-charcoal">
-            EB
-          </span>
-          EcoBrew
+          <Image
+            src="/images/logo-ecobrew.png"
+            alt="EcoBrew"
+            width={32}
+            height={32}
+            className="rounded-lg"
+          />
+          <span className="text-xl font-bold">EcoBrew</span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/ui/Container";
 import NewsletterForm from "./NewsletterForm";
@@ -36,11 +37,15 @@ export default function Footer({
       <Container className="py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <div className="mb-4 flex items-center gap-2 text-xl font-bold text-white">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-forest text-sm font-bold text-white">
-                EB
-              </span>
-              EcoBrew
+            <div className="mb-4 flex items-center gap-2">
+              <Image
+                src="/images/logo-ecobrew.png"
+                alt="EcoBrew"
+                width={32}
+                height={32}
+                className="rounded-lg"
+              />
+              <span className="text-xl font-bold text-white">EcoBrew</span>
             </div>
             <p className="text-sm leading-relaxed text-zinc-400">
               {dict.description}
