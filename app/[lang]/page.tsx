@@ -205,7 +205,7 @@ function SustainabilitySection({
         <div className="grid gap-8 md:grid-cols-4">
           {dict.stats.map((stat, i) => (
             <div key={i} className="text-center">
-              <div className="mb-2 text-4xl font-bold text-forest-light md:text-5xl">
+              <div className="mb-2 text-4xl font-bold text-white md:text-5xl">
                 {stat.value}
               </div>
               <div className="text-sm text-cream/70">{stat.label}</div>
