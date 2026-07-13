@@ -117,7 +117,7 @@ function KeunggulanSection({
     <Section dark id="keunggulan">
       <Container>
         <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
-          {dict.title}ssss
+          {dict.title}
         </h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {dict.items.map((item, i) => (

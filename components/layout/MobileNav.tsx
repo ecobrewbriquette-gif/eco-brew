@@ -2,6 +2,7 @@
 
 import { FiMenu, FiX } from "react-icons/fi";
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 
@@ -26,7 +27,7 @@ export default function MobileNav({ items }: { items: { label: string; href: str
         <FiMenu size={24} />
       </button>
 
-      {open && (
+      {open && createPortal(
         <div className="fixed inset-0 z-50 flex">
           <div
             className="flex-1 bg-black/50 backdrop-blur-sm"
@@ -65,7 +66,8 @@ export default function MobileNav({ items }: { items: { label: string; href: str
               ))}
             </nav>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
