@@ -333,7 +333,7 @@ export default function ContactPage() {
                 <h3 className="mb-3 font-semibold text-charcoal dark:text-zinc-100">Lokasi</h3>
                 <div className="aspect-video w-full overflow-hidden rounded-xl bg-gradient-to-br from-forest/20 to-coffee/10">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8!2d107.6!3d-6.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTQnMDAuMCJTIDEwN8KwMzYnMDAuMCJF!5e0!3m2!1sen!2sid!4v1"
+                    src="https://www.google.com/maps/embed?q=Kandri+Asri+Kel+Kandri+Kec+Gunungpati+Kota+Semarang+Jawa+Tengah+50222+Indonesia"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
