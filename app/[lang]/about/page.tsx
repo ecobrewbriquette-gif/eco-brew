@@ -74,17 +74,17 @@ function VisiMisiSection({
   return (
     <Section dark>
       <Container>
-        <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
+        <h2 className="mb-12 text-center text-3xl font-bold text-cream md:text-4xl">
           {dict.title}
         </h2>
         <div className="mx-auto mb-12 max-w-3xl rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
-          <h3 className="mb-3 text-xl font-semibold text-forest-light">
+          <h3 className="mb-3 text-xl font-semibold text-cream">
             {dict.visi.title}
           </h3>
           <p className="leading-relaxed text-cream/80">{dict.visi.content}</p>
         </div>
         <div className="mx-auto max-w-3xl">
-          <h3 className="mb-6 text-center text-xl font-semibold text-forest-light">
+          <h3 className="mb-6 text-center text-xl font-semibold text-cream">
             Misi
           </h3>
           <div className="space-y-4">
