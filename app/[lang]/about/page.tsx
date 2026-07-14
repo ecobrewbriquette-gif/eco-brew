@@ -140,18 +140,18 @@ function TeamSection({
         </h2>
         <div className="grid gap-6 md:grid-cols-3">
           {dict.members.map((member, i) => (
-            <Card key={i} className="text-center">
+            <Card key={i} backgroundImage="/images/logo-apu.jpeg" className="text-center">
               <div className="relative mx-auto mb-4 h-20 w-20 overflow-hidden rounded-full bg-gradient-to-br from-forest to-coffee">
                 <Image src={member.photo} alt={member.name} fill className="object-cover" />
               </div>
-              <h3 className="text-lg font-semibold text-charcoal dark:text-zinc-100">
+              <h3 className="text-lg font-semibold text-white">
                 {member.name}
               </h3>
-              <p className="mb-2 text-sm font-medium text-forest dark:text-forest-light">
+              <p className="mb-2 text-sm font-medium text-cream/80">
                 {member.role}
               </p>
               {member.bio && (
-                <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+                <p className="text-sm leading-relaxed text-cream/70">
                   {member.bio}
                 </p>
               )}
