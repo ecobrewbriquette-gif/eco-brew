@@ -96,6 +96,8 @@ export default function ContactPage() {
     try {
       const res = await fetch(GAS_URL, {
         method: "POST",
+        redirect: "follow",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify({ type: "contact", ...formData }),
       });
       const data = await res.json();
@@ -119,6 +121,8 @@ export default function ContactPage() {
     try {
       const res = await fetch(GAS_URL, {
         method: "POST",
+        redirect: "follow",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify({ type: "rfq", ...rfqData }),
       });
       const data = await res.json();
