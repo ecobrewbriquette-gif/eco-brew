@@ -47,6 +47,8 @@ interface Dict {
   };
 }
 
+const GAS_URL = "https://script.google.com/macros/s/AKfycbxti1L67IsSfnLHOYMl2oL8vP77LRgiyIEhaJudaO4absD25FOKLjqWkxKPlkuHBYAwdQ/exec";
+
 export default function ContactPage() {
   const params = useParams();
   const lang = params?.lang as string;
@@ -71,6 +73,10 @@ export default function ContactPage() {
   });
   const [formSuccess, setFormSuccess] = useState(false);
   const [rfqSuccess, setRfqSuccess] = useState(false);
+  const [formError, setFormError] = useState("");
+  const [rfqError, setRfqError] = useState("");
+  const [formLoading, setFormLoading] = useState(false);
+  const [rfqLoading, setRfqLoading] = useState(false);
   const [activeTab, setActiveTab] = useState<"contact" | "rfq">("contact");
 
   useEffect(() => {
@@ -83,16 +89,50 @@ export default function ContactPage() {
 
   const c = dict.contact;
 
-  const handleFormSubmit = (e: React.FormEvent) => {
+  const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setFormSuccess(true);
-    setFormData({ name: "", email: "", phone: "", company: "", subject: "", message: "" });
+    setFormLoading(true);
+    setFormError("");
+    try {
+      const res = await fetch(GAS_URL, {
+        method: "POST",
+        body: JSON.stringify({ type: "contact", ...formData }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setFormSuccess(true);
+        setFormData({ name: "", email: "", phone: "", company: "", subject: "", message: "" });
+      } else {
+        setFormError(c.form.error);
+      }
+    } catch {
+      setFormError(c.form.error);
+    } finally {
+      setFormLoading(false);
+    }
   };
 
-  const handleRfqSubmit = (e: React.FormEvent) => {
+  const handleRfqSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setRfqSuccess(true);
-    setRfqData({ name: "", email: "", phone: "", company: "", product: "", quantity: "", delivery: "", message: "" });
+    setRfqLoading(true);
+    setRfqError("");
+    try {
+      const res = await fetch(GAS_URL, {
+        method: "POST",
+        body: JSON.stringify({ type: "rfq", ...rfqData }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setRfqSuccess(true);
+        setRfqData({ name: "", email: "", phone: "", company: "", product: "", quantity: "", delivery: "", message: "" });
+      } else {
+        setRfqError(c.rfq.error);
+      }
+    } catch {
+      setRfqError(c.rfq.error);
+    } finally {
+      setRfqLoading(false);
+    }
   };
 
   return (
@@ -142,6 +182,11 @@ export default function ContactPage() {
                       {c.form.success}
                     </div>
                   ) : (
+                    {formError && (
+                      <div className="rounded-xl bg-red-50 p-6 text-center text-red-600 dark:bg-red-900/20 dark:text-red-400">
+                        {formError}
+                      </div>
+                    )}
                     <form onSubmit={handleFormSubmit} className="space-y-4">
                       <div className="grid gap-4 sm:grid-cols-2">
                         <Input
@@ -201,9 +246,10 @@ export default function ContactPage() {
                       </div>
                       <button
                         type="submit"
-                        className="w-full rounded-xl bg-forest px-6 py-3 font-medium text-white transition-colors hover:bg-forest-light"
+                        disabled={formLoading}
+                        className="w-full rounded-xl bg-forest px-6 py-3 font-medium text-white transition-colors hover:bg-forest-light disabled:opacity-50"
                       >
-                        {c.form.submit}
+                        {formLoading ? "..." : c.form.submit}
                       </button>
                     </form>
                   )}
@@ -215,6 +261,11 @@ export default function ContactPage() {
                       {c.rfq.success}
                     </div>
                   ) : (
+                    {rfqError && (
+                      <div className="rounded-xl bg-red-50 p-6 text-center text-red-600 dark:bg-red-900/20 dark:text-red-400">
+                        {rfqError}
+                      </div>
+                    )}
                     <form onSubmit={handleRfqSubmit} className="space-y-4">
                       <p className="mb-4 text-sm text-zinc-600 dark:text-zinc-400">
                         {c.rfq.subtitle}
@@ -292,9 +343,10 @@ export default function ContactPage() {
                       </div>
                       <button
                         type="submit"
-                        className="w-full rounded-xl bg-forest px-6 py-3 font-medium text-white transition-colors hover:bg-forest-light"
+                        disabled={rfqLoading}
+                        className="w-full rounded-xl bg-forest px-6 py-3 font-medium text-white transition-colors hover:bg-forest-light disabled:opacity-50"
                       >
-                        {c.rfq.submit}
+                        {rfqLoading ? "..." : c.rfq.submit}
                       </button>
                     </form>
                   )}
