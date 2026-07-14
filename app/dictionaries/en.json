@@ -410,7 +410,8 @@
       { "category": "produk", "title": "HORECA Briquette", "description": "Product packaging for HORECA sector", "image": "" },
       { "category": "laboratorium", "title": "Research Team", "description": "R&D team conducting product development", "image": "" },
       { "category": "gudang", "title": "Logistics", "description": "Export shipment preparation", "image": "" },
-      { "category": "mitra", "title": "Partnership Signing", "description": "Collaboration with strategic partners", "image": "/images/gallery/penandatanganan.jpg" }
+      { "category": "mitra", "title": "Partnership Signing", "description": "Collaboration with strategic partners", "image": "/images/gallery/penandatanganan.jpg" },
+      { "category": "mitra", "title": "Partnership Signing 2", "description": "Strategic partnership signing with new partners", "image": "/images/gallery/Penandatanganan 2.jpeg" }
     ]
   },
   "blog": {
