@@ -50,8 +50,12 @@ export default async function SustainabilityPage({ params }: { params: Promise<{
                 ))}
               </ul>
             </div>
-            <Card className="flex items-center justify-center bg-gradient-to-br from-forest/10 to-coffee/10 text-8xl">
-              ♻️
+            <Card className="overflow-hidden">
+              <img
+                src="/images/gallery/ampas-kopi.jpg"
+                alt="Ampas kopi sebagai bahan baku briket"
+                className="w-full h-auto object-cover"
+              />
             </Card>
           </div>
         </Container>
@@ -65,7 +69,7 @@ export default async function SustainabilityPage({ params }: { params: Promise<{
               {s.emisi.description}
             </p>
             <div className="rounded-2xl border border-forest-light/30 bg-forest-light/10 p-8 backdrop-blur-sm">
-              <p className="text-xl font-semibold text-forest-light">
+              <p className="text-xl font-semibold text-cream">
                 {s.emisi.stat}
               </p>
             </div>
