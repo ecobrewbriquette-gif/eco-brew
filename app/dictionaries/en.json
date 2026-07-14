@@ -150,10 +150,9 @@
     "tim": {
       "title": "Our Team",
       "members": [
-        { "name": "Ahmad Rizki", "role": "CEO & Founder", "bio": "Renewable energy expert with 15 years of experience in the bioenergy industry." },
-        { "name": "Sarah Wijaya", "role": "COO", "bio": "Operations and supply chain specialist focused on efficiency and sustainability." },
-        { "name": "Dr. Budi Santoso", "role": "CTO", "bio": "PhD in biomass technology with dozens of scientific publications." },
-        { "name": "Maya Putri", "role": "CMO", "bio": "B2B marketing strategist with global networks in the renewable energy sector." }
+        { "name": "Vika Nurdiana", "role": "CEO", "bio": "" },
+        { "name": "R Nur Ali Yahya", "role": "CFO", "bio": "" },
+        { "name": "Surya Dzaka Prayoga", "role": "CMO", "bio": "" }
       ]
     },
     "nilai": {

@@ -150,10 +150,9 @@
     "tim": {
       "title": "Tim Kami",
       "members": [
-        { "name": "Ahmad Rizki", "role": "CEO & Founder", "bio": "Pakar energi terbarukan dengan pengalaman 15 tahun di industri bioenergi." },
-        { "name": "Sarah Wijaya", "role": "COO", "bio": "Ahli operasional dan rantai pasok dengan fokus pada efisiensi dan keberlanjutan." },
-        { "name": "Dr. Budi Santoso", "role": "CTO", "bio": "Doktor di bidang teknologi biomassa dengan puluhan publikasi ilmiah." },
-        { "name": "Maya Putri", "role": "CMO", "bio": "Strategis pemasaran B2B dengan jaringan global di sektor energi terbarukan." }
+        { "name": "Vika Nurdiana", "role": "CEO", "bio": "" },
+        { "name": "R Nur Ali Yahya", "role": "CFO", "bio": "" },
+        { "name": "Surya Dzaka Prayoga", "role": "CMO", "bio": "" }
       ]
     },
     "nilai": {

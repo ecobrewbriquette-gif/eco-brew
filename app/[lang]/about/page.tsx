@@ -137,7 +137,7 @@ function TeamSection({
         <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
           {dict.title}
         </h2>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-3">
           {dict.members.map((member, i) => (
             <Card key={i} className="text-center">
               <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-forest to-coffee text-2xl font-bold text-white">
@@ -149,9 +149,11 @@ function TeamSection({
               <p className="mb-2 text-sm font-medium text-forest dark:text-forest-light">
                 {member.role}
               </p>
-              <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
-                {member.bio}
-              </p>
+              {member.bio && (
+                <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+                  {member.bio}
+                </p>
+              )}
             </Card>
           ))}
         </div>
