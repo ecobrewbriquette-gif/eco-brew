@@ -4,6 +4,7 @@ import Card from "@/components/ui/Card";
 import { getDictionary, hasLocale } from "@/lib/dictionaries";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -128,7 +129,7 @@ function TeamSection({
 }: {
   dict: {
     title: string;
-    members: { name: string; role: string; bio: string }[];
+    members: { name: string; role: string; bio: string; photo: string }[];
   };
 }) {
   return (
@@ -140,8 +141,8 @@ function TeamSection({
         <div className="grid gap-6 md:grid-cols-3">
           {dict.members.map((member, i) => (
             <Card key={i} className="text-center">
-              <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-forest to-coffee text-2xl font-bold text-white">
-                {member.name.charAt(0)}
+              <div className="relative mx-auto mb-4 h-20 w-20 overflow-hidden rounded-full bg-gradient-to-br from-forest to-coffee">
+                <Image src={member.photo} alt={member.name} fill className="object-cover" />
               </div>
               <h3 className="text-lg font-semibold text-charcoal dark:text-zinc-100">
                 {member.name}

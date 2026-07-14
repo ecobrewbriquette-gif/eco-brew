@@ -150,9 +150,9 @@
     "tim": {
       "title": "Our Team",
       "members": [
-        { "name": "Vika Nurdiana", "role": "CEO", "bio": "" },
-        { "name": "R Nur Ali Yahya", "role": "CFO", "bio": "" },
-        { "name": "Surya Dzaka Prayoga", "role": "CMO", "bio": "" }
+        { "name": "Vika Nurdiana", "role": "CEO", "bio": "", "photo": "/images/team/VikaNurdiana.jpeg" },
+        { "name": "R Nur Ali Yahya", "role": "CFO", "bio": "", "photo": "/images/team/RNurAliYahya.jpeg" },
+        { "name": "Surya Dzaka Prayoga", "role": "CMO", "bio": "", "photo": "/images/team/SuryaDzakaPrayoga.jpeg" }
       ]
     },
     "nilai": {
