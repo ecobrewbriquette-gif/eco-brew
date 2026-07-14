@@ -91,17 +91,30 @@ function ValuePropositionSection({
           {dict.title}
         </h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          {dict.items.map((item, i) => (
-            <Card key={i} className="text-center">
-              <div className="mb-4 text-4xl">{icons[item.icon] || "🌱"}</div>
-              <h3 className="mb-2 text-lg font-semibold text-charcoal dark:text-zinc-100">
-                {item.title}
-              </h3>
-              <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
-                {item.description}
-              </p>
-            </Card>
-          ))}
+          {dict.items.map((item, i) => {
+            const bgImages = [
+              "/images/gallery/Circular%20Ekonomi.jpeg",
+              "/images/gallery/Ramah%20lingkungan.jpeg",
+              "/images/gallery/kualitas%20premium.jpeg",
+              "/images/gallery/siap%20ekspor.jpeg",
+            ];
+            const hasBg = i < bgImages.length;
+            return (
+              <Card
+                key={i}
+                className="text-center"
+                backgroundImage={hasBg ? bgImages[i] : undefined}
+              >
+                <div className="mb-4 text-4xl">{icons[item.icon] || "🌱"}</div>
+                <h3 className={`mb-2 text-lg font-semibold ${hasBg ? "text-white/95" : "text-charcoal dark:text-zinc-100"}`}>
+                  {item.title}
+                </h3>
+                <p className={`text-sm leading-relaxed ${hasBg ? "text-white/90" : "text-zinc-600 dark:text-zinc-400"}`}>
+                  {item.description}
+                </p>
+              </Card>
+            );
+          })}
         </div>
       </Container>
     </Section>
