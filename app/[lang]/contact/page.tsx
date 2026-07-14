@@ -182,12 +182,13 @@ export default function ContactPage() {
                       {c.form.success}
                     </div>
                   ) : (
-                    {formError && (
-                      <div className="rounded-xl bg-red-50 p-6 text-center text-red-600 dark:bg-red-900/20 dark:text-red-400">
-                        {formError}
-                      </div>
-                    )}
-                    <form onSubmit={handleFormSubmit} className="space-y-4">
+                    <>
+                      {formError && (
+                        <div className="mb-4 rounded-xl bg-red-50 p-4 text-center text-sm text-red-600 dark:bg-red-900/20 dark:text-red-400">
+                          {formError}
+                        </div>
+                      )}
+                      <form onSubmit={handleFormSubmit} className="space-y-4">
                       <div className="grid gap-4 sm:grid-cols-2">
                         <Input
                           label={c.form.name}
@@ -252,6 +253,7 @@ export default function ContactPage() {
                         {formLoading ? "..." : c.form.submit}
                       </button>
                     </form>
+                    </>
                   )}
                 </Card>
               ) : (
@@ -261,12 +263,13 @@ export default function ContactPage() {
                       {c.rfq.success}
                     </div>
                   ) : (
-                    {rfqError && (
-                      <div className="rounded-xl bg-red-50 p-6 text-center text-red-600 dark:bg-red-900/20 dark:text-red-400">
-                        {rfqError}
-                      </div>
-                    )}
-                    <form onSubmit={handleRfqSubmit} className="space-y-4">
+                    <>
+                      {rfqError && (
+                        <div className="mb-4 rounded-xl bg-red-50 p-4 text-center text-sm text-red-600 dark:bg-red-900/20 dark:text-red-400">
+                          {rfqError}
+                        </div>
+                      )}
+                      <form onSubmit={handleRfqSubmit} className="space-y-4">
                       <p className="mb-4 text-sm text-zinc-600 dark:text-zinc-400">
                         {c.rfq.subtitle}
                       </p>
@@ -349,6 +352,7 @@ export default function ContactPage() {
                         {rfqLoading ? "..." : c.rfq.submit}
                       </button>
                     </form>
+                    </>
                   )}
                 </Card>
               )}
