@@ -358,6 +358,7 @@
         "title": "Hotel",
         "icon": "building",
         "description": "Energy solutions for hotel water heating, laundry, kitchen, and space heating. EcoBrew helps hotels reduce operational costs and achieve sustainability targets.",
+        "image": "/images/gallery/Hotel-bbq.jfif",
         "benefits": ["Save up to 40% on energy costs", "Support green hotel certification", "Stable & guaranteed supply", "Reduce hotel carbon footprint"]
       },
       {

@@ -71,9 +71,19 @@ export default async function IndustriesPage({ params }: { params: Promise<{ lan
                     ))}
                   </div>
                 </div>
-                <div className="flex aspect-square w-full max-w-sm items-center justify-center rounded-2xl bg-gradient-to-br from-forest/10 to-coffee/10 text-9xl dark:from-forest/5 dark:to-coffee/5">
-                  {icons[item.icon] || "📦"}
-                </div>
+                {item.image ? (
+                  <div className="flex aspect-square w-full max-w-sm items-center justify-center rounded-2xl overflow-hidden">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className="flex aspect-square w-full max-w-sm items-center justify-center rounded-2xl bg-gradient-to-br from-forest/10 to-coffee/10 text-9xl dark:from-forest/5 dark:to-coffee/5">
+                    {icons[item.icon] || "📦"}
+                  </div>
+                )}
               </div>
             ))}
           </div>
