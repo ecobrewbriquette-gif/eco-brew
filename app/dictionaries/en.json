@@ -386,6 +386,7 @@
         "title": "Export Market",
         "icon": "globe",
         "description": "EcoBrew products are ready for export to international markets, meeting global quality standards, certifications, and customs requirements.",
+        "image": "/images/gallery/ekspormarket.jfif",
         "benefits": ["International quality standards", "Complete certifications", "Professional export packaging", "Global distribution network"]
       }
     ]

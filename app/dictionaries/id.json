@@ -386,6 +386,7 @@
         "title": "Export Market",
         "icon": "globe",
         "description": "Produk EcoBrew siap diekspor ke pasar internasional dengan memenuhi standar kualitas global, sertifikasi, dan persyaratan kepabeanan.",
+        "image": "/images/gallery/ekspormarket.jfif",
         "benefits": ["Standar kualitas internasional", "Sertifikasi lengkap", "Kemasan ekspor profesional", "Jaringan distribusi global"]
       }
     ]
