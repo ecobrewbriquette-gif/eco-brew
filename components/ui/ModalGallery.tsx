@@ -8,6 +8,7 @@ interface GalleryImage {
   description: string;
   category: string;
   image?: string;
+  images?: string[];
 }
 
 export default function ModalGallery({
@@ -20,12 +21,30 @@ export default function ModalGallery({
   onClose: () => void;
 }) {
   const [index, setIndex] = useState(currentIndex);
+  const [subIndex, setSubIndex] = useState(0);
+
+  useEffect(() => {
+    setSubIndex(0);
+  }, [index]);
 
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
-      if (e.key === "ArrowRight") setIndex((i) => (i + 1) % images.length);
-      if (e.key === "ArrowLeft") setIndex((i) => (i - 1 + images.length) % images.length);
+      if (e.key === "ArrowRight") {
+        const itemImages = images[index].images;
+        if (itemImages && subIndex < itemImages.length - 1) {
+          setSubIndex((i) => i + 1);
+        } else {
+          setIndex((i) => (i + 1) % images.length);
+        }
+      }
+      if (e.key === "ArrowLeft") {
+        if (subIndex > 0) {
+          setSubIndex((i) => i - 1);
+        } else {
+          setIndex((i) => (i - 1 + images.length) % images.length);
+        }
+      }
     };
     document.addEventListener("keydown", handleKey);
     document.body.style.overflow = "hidden";
@@ -33,9 +52,30 @@ export default function ModalGallery({
       document.removeEventListener("keydown", handleKey);
       document.body.style.overflow = "";
     };
-  }, [images.length, onClose]);
+  }, [images.length, onClose, index, subIndex]);
 
   const img = images[index];
+  const currentImages = img.images?.length ? img.images : (img.image ? [img.image] : []);
+  const currentSrc = currentImages[subIndex] || "";
+
+  const canGoPrev = subIndex > 0;
+  const canGoNext = currentImages.length > 1 && subIndex < currentImages.length - 1;
+
+  const goPrev = () => {
+    if (subIndex > 0) {
+      setSubIndex((i) => i - 1);
+    } else {
+      setIndex((i) => (i - 1 + images.length) % images.length);
+    }
+  };
+
+  const goNext = () => {
+    if (currentImages.length > 1 && subIndex < currentImages.length - 1) {
+      setSubIndex((i) => i + 1);
+    } else {
+      setIndex((i) => (i + 1) % images.length);
+    }
+  };
 
   return (
     <div
@@ -52,7 +92,7 @@ export default function ModalGallery({
       <button
         onClick={(e) => {
           e.stopPropagation();
-          setIndex((i) => (i - 1 + images.length) % images.length);
+          goPrev();
         }}
         className="absolute left-4 z-10 text-white transition-colors hover:text-cream"
       >
@@ -63,13 +103,18 @@ export default function ModalGallery({
         className="flex max-h-[85vh] max-w-4xl flex-col items-center"
         onClick={(e) => e.stopPropagation()}
       >
-        {img.image ? (
+        {currentSrc ? (
           <div className="relative mb-4 w-full max-w-3xl">
             <img
-              src={img.image}
+              src={currentSrc}
               alt={img.title}
               className="max-h-[65vh] w-full rounded-2xl object-contain"
             />
+            {currentImages.length > 1 && (
+              <span className="absolute bottom-2 left-1/2 -translate-x-1/2 rounded-full bg-black/60 px-3 py-1 text-sm text-white">
+                {subIndex + 1} / {currentImages.length}
+              </span>
+            )}
           </div>
         ) : (
           <div className="mb-4 flex aspect-video w-full max-w-2xl items-center justify-center rounded-2xl bg-forest/20 text-8xl font-bold text-forest dark:bg-cream/10 dark:text-cream">
@@ -93,7 +138,7 @@ export default function ModalGallery({
       <button
         onClick={(e) => {
           e.stopPropagation();
-          setIndex((i) => (i + 1) % images.length);
+          goNext();
         }}
         className="absolute right-4 z-10 text-white transition-colors hover:text-cream"
       >

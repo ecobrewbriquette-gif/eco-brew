@@ -410,8 +410,7 @@
       { "category": "produk", "title": "HORECA Briquette", "description": "Kemasan produk untuk sektor HORECA", "image": "" },
       { "category": "laboratorium", "title": "Tim Riset", "description": "Tim R&D melakukan pengembangan produk", "image": "" },
       { "category": "gudang", "title": "Logistik", "description": "Persiapan pengiriman ekspor", "image": "" },
-      { "category": "mitra", "title": "Penandatanganan Kerjasama", "description": "Kerjasama dengan mitra strategis", "image": "/images/gallery/penandatanganan.jpg" },
-      { "category": "mitra", "title": "Penandatanganan Kerjasama 2", "description": "Penandatanganan kerjasama strategis dengan mitra baru", "image": "/images/gallery/Penandatanganan 2.jpeg" }
+      { "category": "mitra", "title": "Penandatanganan Kerjasama", "description": "Kerjasama dengan mitra strategis", "image": "/images/gallery/penandatanganan.jpg", "images": ["/images/gallery/penandatanganan.jpg", "/images/gallery/Penandatanganan 2.jpeg"] }
     ]
   },
   "blog": {

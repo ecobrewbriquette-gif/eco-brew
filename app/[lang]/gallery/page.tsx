@@ -11,6 +11,7 @@ interface GalleryItem {
   title: string;
   description: string;
   image?: string;
+  images?: string[];
 }
 
 interface GalleryDict {
@@ -82,13 +83,18 @@ export default function GalleryPage() {
                 onClick={() => setModalIndex(items.indexOf(item))}
                 className="group relative overflow-hidden rounded-2xl bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md dark:bg-charcoal-light"
               >
-                {item.image ? (
+                {item.images?.[0] || item.image ? (
                   <div className="relative aspect-video">
                     <img
-                      src={item.image}
+                      src={item.images?.[0] || item.image!}
                       alt={item.title}
                       className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
+                    {(item.images?.length ?? 0) > 1 && (
+                      <span className="absolute left-2 top-2 rounded-full bg-black/60 px-2 py-0.5 text-xs text-white">
+                        1/{item.images!.length}
+                      </span>
+                    )}
                   </div>
                 ) : (
                   <div className="flex aspect-video items-center justify-center bg-gradient-to-br from-forest/20 to-coffee/10 text-6xl transition-transform duration-300 group-hover:scale-105 dark:from-forest/10 dark:to-coffee/5">
