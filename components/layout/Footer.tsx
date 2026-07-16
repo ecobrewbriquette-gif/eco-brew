@@ -32,6 +32,13 @@ export default function Footer({
   lang: string;
   products: ProductItem[];
 }) {
+  const socialLinks: Record<string, string> = {
+    instagram: "https://www.instagram.com/ecobrew.briquette?igsh=MWdsNmpkbHF2ZTc1Yw==",
+    linkedin: "#",
+    youtube: "#",
+    facebook: "#",
+  };
+
   return (
     <footer className="mt-auto border-t border-cream-dark bg-charcoal text-zinc-300 dark:border-zinc-800">
       <Container className="py-12">
@@ -104,7 +111,9 @@ export default function Footer({
                 {Object.entries(dict.social).map(([key, label]) => (
                   <a
                     key={key}
-                    href="#"
+                    href={socialLinks[key] || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="rounded-lg bg-zinc-700 px-3 py-1.5 text-xs transition-colors hover:bg-forest"
                   >
                     {label}
