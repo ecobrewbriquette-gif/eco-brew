@@ -27,12 +27,20 @@ export default async function IndustriesPage({ params }: { params: Promise<{ lan
 
   return (
     <>
-      <Section className="pb-0 pt-24 md:pt-32">
-        <Container className="text-center">
-          <h1 className="mb-4 text-4xl font-bold text-forest dark:text-forest-light md:text-5xl">
+      <Section
+        className="relative overflow-hidden pb-0 pt-24 md:pt-32"
+        style={{
+          backgroundImage: `url("/images/gallery/latarbelakang-industri.png")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
+        <Container className="relative z-10 text-center">
+          <h1 className="mb-4 text-4xl font-bold text-white drop-shadow-lg md:text-5xl">
             {ind.title}
           </h1>
-          <p className="mx-auto max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
+          <p className="mx-auto max-w-2xl text-lg text-zinc-200 drop-shadow">
             {ind.subtitle}
           </p>
         </Container>

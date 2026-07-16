@@ -5,11 +5,13 @@ export default function Section({
   className = "",
   id,
   dark = false,
+  ...props
 }: {
   children: React.ReactNode;
   className?: string;
   id?: string;
   dark?: boolean;
+  style?: React.CSSProperties;
 }) {
   return (
     <section
@@ -20,6 +22,7 @@ export default function Section({
         !dark && "bg-cream text-charcoal dark:bg-black dark:text-zinc-100",
         className
       )}
+      {...props}
     >
       {children}
     </section>
