@@ -365,6 +365,7 @@
         "title": "Restoran",
         "icon": "utensils",
         "description": "Briket EcoBrew untuk memasak, memanggang, dan menghangatkan makanan dengan performa optimal dan pembakaran bersih.",
+        "image": "/images/gallery/Restoran-bbq.jfif",
         "benefits": ["Panas konsisten untuk memasak", "Tidak mengganggu cita rasa", "Pembakaran bersih di dapur", "Biaya operasional lebih rendah"]
       },
       {

@@ -365,6 +365,7 @@
         "title": "Restaurant",
         "icon": "utensils",
         "description": "EcoBrew briquettes for cooking, grilling, and food warming with optimal performance and clean burning.",
+        "image": "/images/gallery/Restoran-bbq.jfif",
         "benefits": ["Consistent heat for cooking", "Does not affect flavor", "Clean burning in kitchen", "Lower operational costs"]
       },
       {
