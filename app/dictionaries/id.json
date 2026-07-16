@@ -379,6 +379,7 @@
         "title": "Industri",
         "icon": "factory",
         "description": "Solusi bahan bakar biomassa untuk industri manufaktur, tekstil, pengolahan makanan, dan pembangkit uap skala besar.",
+        "image": "/images/gallery/industri-bahanbakar.jfif",
         "benefits": ["Efisiensi biaya produksi", "Memenuhi regulasi emisi", "Alternatif batubara yang lebih bersih", "Ketersediaan pasokan massal"]
       },
       {
