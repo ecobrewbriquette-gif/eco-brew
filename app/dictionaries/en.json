@@ -372,6 +372,7 @@
         "title": "Cafe",
         "icon": "coffee",
         "description": "From coffee grounds back to energy. Cafes can participate in EcoBrew's circular economy program by supplying coffee grounds for processing.",
+        "image": "/images/gallery/identix-cafe.jfif",
         "benefits": ["Coffee grounds recycling program", "Eco-friendly branding", "More efficient energy costs", "Green marketing support"]
       },
       {
